@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.wrap {
+    float: right;
+    padding: 25px;
+    width: 30%;
+    top: 50%;
+    left:50%;
+}
+
+.search {
+    width:80%;
+    position: relative;
+}
+
+.searchterm {
+    float: left;
+    width: 100%;
+    border: 3px solid #00B4CC;
+    padding: 11px;
+    font-size: 17px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.searchterm:focus {
+    color: #00B4CC;
+    border: 3px solid #fff;
+}
+
+.searchbtn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #00B4CC;
+    background-color: #00B4CC;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    opacity: 0.9;
+    border-radius: 40px;
+    vertical-align: baseline;
+    padding: 10px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.footer {
+   width: 100%;
+   height: 65%;
+    background-color: rgb(87, 82, 82);
+    opacity: 0.9;
+    padding: 25px 0px;
+
+}
+
+
+
+.footer-social-icons {
+    width: 10%;
+    height: auto;
+    margin: auto;
+    float: left;
+}
+
+.tekst {
+    font-family: sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    block-size: 13px;
+    font-style: normal;
+    color: white;
+
+}
+
+.footer-social-icons ul{
+    margin: 10px;
+    padding: 0px;
+    
+}    
+
+
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 10px 10px;
+    border-radius: 25%;
+    background: gray;
+}
+
+.footer-social-icons ul li a{
+    color: black;
+    font-size: 20px;
+    display: block;
+    border-radius: 15%;
+
+}
+
+.footer-social-icons ul li a i{
+    line-height: 25px;
+}
+
+.footer-menu-one {
+    text-align: center;
+    width: 65%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+.footer-menu-one ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    float: left;
+}
+
+
+.footer-menu-one ul li a{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer-menu-one ul li a:hover{
+    color:black;
+}
+
+.contact-form {
+    float: right;
+    width: 20%;
+    background: gray;
+    top: 50%;
+    right: 50%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+}
+
+.contact-form h2{
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.txtb {
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+.txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.btn {
+    display: block;
+    background: #00B4CC;
+    pad: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+
+.email {
+    text-align:left;
+
+}
+
+.radnja {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin: 20px;
+    display: inline-block;
+    color: white;
+}
+
+.logoo {
+    float: left;
+    padding: 20px;
+    width: 150px;
+    height: auto;
+    opacity: 0.9;
+    border-radius: 40px;
+    vertical-align: baseline;
+}
+
+.vrijeme {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.email {
+    padding: 15px;
+}
+
+
+.Putovanja {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 0.9;
+    font-style: normal;
+    font-weight: 100;
+    text-decoration: none;
+    text-indent: 25px;
+    text-transform: uppercase;
+}
+
+.preporucujemo {
+    float: left;
+    padding: 200px;
+    margin-left: -400px;
+
+}
+
+.let1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
+    font-style: normal;
+    font-weight: 100;
+    text-transform: uppercase;
+    
+}
+
+
